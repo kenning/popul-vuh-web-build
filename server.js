@@ -1,11 +1,3 @@
-// var express = require('express');
-// var serveStatic = require('serve-static');
-
-// var app = express();
-
-// app.use(serveStatic('public/webbuild', {'index': 'webbuild.html'}));
-// app.listen(8080);
-
 var 
 url = require('url'),
 fs = require('fs'),
