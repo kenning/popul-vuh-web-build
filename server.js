@@ -26,6 +26,6 @@ server.on('request', function (req, res) {
       res.end(404);
   }
 });
-server.listen(process.env.PORT || 8080, '127.0.0.1');
+server.listen(process.env.PORT || 8080);
 
 console.log('Listening...');
